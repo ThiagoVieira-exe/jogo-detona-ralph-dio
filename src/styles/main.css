@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url(../images/wall.png);
+  background-image: url(../images/background.png);
 }
 
 .menu {
@@ -28,13 +28,18 @@
   height: 150px;
   width: 150px;
   border: 1px solid #000000;
-  background-color: #6cfacb;
+  background-color: #fa9961;
+  
 }
 
 .enemy {
-  background-image: url(../images/ralph.png);
+  background-image: url(../images/enemy1.png);
   background-size: cover;
+  background-position: center;
+  cursor: url(../images/pointer.png) 16 16, auto;
 }
+
+
 
 .menu-lives {
   display: flex;
