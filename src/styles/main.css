@@ -33,7 +33,7 @@
 }
 
 .enemy {
-  background-image: url(../images/enemy1.png);
+  background-image: url(../images/enemy.png);
   background-size: cover;
   background-position: center;
   cursor: url(../images/pointer.png) 16 16, auto;

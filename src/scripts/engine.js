@@ -25,7 +25,6 @@ function countDown() {
   if (state.values.curretTime <= 0) {
     clearInterval(state.action.timerID);
     clearInterval(state.action.countDownTimerID);
-
     alert("GAME OVER! Your final score is " + state.values.result);
   }
 }
