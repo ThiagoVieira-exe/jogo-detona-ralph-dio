@@ -71,7 +71,6 @@ function contagemVidas() {
   });
 }
 
-
 function initialize() {
   addListenerHitBox();
   contagemVidas();

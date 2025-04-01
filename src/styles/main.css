@@ -29,7 +29,6 @@
   width: 150px;
   border: 1px solid #000000;
   background-color: #fa9961;
-  
 }
 
 .enemy {
@@ -39,8 +38,6 @@
   cursor: url(../images/pointer.png) 16 16, auto;
 }
 
-
-
 .menu-lives {
   display: flex;
   align-items: center;
@@ -49,5 +46,5 @@
 
 .menu-time h2:nth-child(2),
 .menu-score h2:nth-child(2) {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
